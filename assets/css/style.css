@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(6, 80, 122);
+    --primary-color-dark: rgb(0, 21, 34);
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    max-width: 100%;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/Bg.svg );
+    background-position: cover;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.8em;
+    line-height: 1.5em;
+}
+
+.container {
+    text-align: center;
+    max-width: 30rem;
+    margin: 5rem auto;
+    background: rgba(255, 255, 255, 0.444);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.display {
+    font-size: 3.3em;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+    height: 80px;
+    font-size: 1.8em;
+    border: none;
+    background: #F1F3F4;
+    cursor: pointer;
+}
+
+.btn-op {
+    background: #DADCE0;
+}
+
+.btn:hover {
+    background: #969696;
+}
+
+.btn-eq {
+    background: #4285F4;
+}
+
+.btn-eq:hover {
+    background: #123875;
+}
+
+.footer {
+    display: flex;
+    color: var(--primary-color);
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.footer a {
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.heart {
+    color: red;
+}
+
+.contact-Me {
+    margin-left: 0.5rem;
+    text-shadow: 1px 1px 1px rgb(1, 80, 170);
+}
+
+.contact-Me:hover {
+    color: rgb(8, 207, 233);
+    transition: all 300ms ease-in-out;
+}
+
+.footer p {
+    margin: 0;
+    padding: 2rem;
+}
+
+@media (max-width: 550px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .container {
+        text-align: center;
+        max-width: 100%;
+        margin: 1rem auto;
+        background: rgba(255, 255, 255, 0.444);
+        padding: 1em;
+        line-height: 1;
+    }
+
+    .calculadora {
+        width: 100%;
+        /* height: 45em; */
+    }
+
+    .display {
+        font-size: 3em;
+        width: 100%;
+        text-align: right;
+    }
+
+    .btn {
+        width: 100%;
+        height: 1.6em;
+        font-size: 2em;
+    }
+
+    .footer {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .footer p {
+        margin: 0;
+        padding: 1rem;
+    }
+
+}
